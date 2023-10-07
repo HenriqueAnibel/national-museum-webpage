@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="">
+
+    <!--Custom style-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="container"><!--container's beginning-->
+
+        <header><!--header's beginning-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header><!--header's end-->
+
+        <div id="main"><!--main's beginning-->
+            <div id="content">
+                <section id="cover">
+                    <img src="images/museu.png" alt="">
+                </section>
+            </div>
+
+            <aside>
+                <section id="testimony">
+                    <img src="images/depoimento.png" alt="">
+                </section>
+                <section id="visit">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="field" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Quantidade de pessoas</label>
+                            <input class="field" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="button" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+            </aside>
+        </div><!--main's end-->
+    </div><!--container's end-->
+</body>
+</html>
